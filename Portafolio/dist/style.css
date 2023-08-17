@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
 html,
 body {
   font-family: "Raleway", sans-serif;
@@ -12,7 +14,7 @@ a {
 
 #sidebar {
   animation-duration: 0.2s;
-  background-color: rgba(61, 65, 68, 0.95);
+  background-color: rgba(31, 32, 32, 0.95);
   height: 100%;
   left: 0;
   position: fixed;
@@ -40,7 +42,7 @@ a {
   color: #546a7b !important;
 }
 #sidebar ul li a {
-  background-color: rgba(84, 106, 123, 0);
+  background-color: rgba(126, 51, 16, 0);
   color: inherit;
   display: table-cell;
   height: 100%;
@@ -58,7 +60,7 @@ a {
 }
 
 #projects {
-  background-color: #edf9f9;
+  background-color: #dde0e0;
   padding: 80px 0;
 }
 #projects h2 {
@@ -112,7 +114,7 @@ a {
   width: 100px;
 }
 #about div {
-  font-family: "Droid Serif", sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 18px;
   font-weight: 100;
   letter-spacing: 1px;
@@ -211,7 +213,7 @@ a {
 }
 
 .dark-blue-font {
-  color: #f31b14;
+  color: #546a7b;
 }
 
 .center {
@@ -295,4 +297,19 @@ a {
   100% {
     opacity: 1;
   }
+}
+/* Estilo para el botón */
+.btn.email {
+  padding: 0;
+}
+
+/* Estilo para el enlace dentro del botón */
+.btn.email .boton {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Estilo para el enlace dentro del botón cuando se coloca sobre él (opcional) */
+.btn.email .boton:hover {
+  text-decoration: none;
 }

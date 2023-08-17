@@ -348,3 +348,19 @@ a {
     opacity: 1;
   }
 }
+
+/* Estilo para el botón */
+.btn.email {
+  padding: 0;
+}
+
+/* Estilo para el enlace dentro del botón */
+.btn.email .boton {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Estilo para el enlace dentro del botón cuando se coloca sobre él (opcional) */
+.btn.email .boton:hover {
+  text-decoration: none;
+}
